@@ -1,0 +1,4 @@
+ Git seja inicializado = git init
+
+Um comando que mostra o estado do nosso repositório = git status
+
