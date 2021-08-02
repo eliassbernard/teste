@@ -7,3 +7,21 @@ Para iniciar o monitoramente = git add (nome do arquivo) ou git add . para todos
 Para remover o arquivo e para que o mesmo deixe de ser monitorado = git rm
 
 git commit -m "Atualização entre aspasstatus", em que o parâmetro -m serve para passarmos uma mensagem de commit, que será incluído entre aspas.
+
+Para limpar o prompt = clear
+
+HEAD: Estado atual do nosso código, ou seja, onde o Git os colocou
+Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
+index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
+
+Arquivo não rastreado, porque está abaixo do subtítulo “Untracked files” na saída do seu status.
+
+“Changes not staged for commit” — que indica que um arquivo rastreado foi modificado no diretório de trabalho mas ainda não foi mandado para o stage (preparado).
+
+Se você executar git status -s ou git status --short a saída do comando vai ser bem mais simples
+
+M = Modificado
+?? = Não foi rastreado
+A = Arquivo adicionado
+
+.gitignore = contendo uma lista de padrões de nomes de arquivo que devem ser ignorados
