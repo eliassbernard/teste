@@ -2,3 +2,8 @@
 
 Um comando que mostra o estado do nosso repositório = git status
 
+Para iniciar o monitoramente = git add (nome do arquivo) ou git add . para todos arquivos da pasta
+
+Para remover o arquivo e para que o mesmo deixe de ser monitorado = git rm
+
+git commit -m "Atualização entre aspasstatus", em que o parâmetro -m serve para passarmos uma mensagem de commit, que será incluído entre aspas.
