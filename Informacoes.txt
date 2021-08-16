@@ -1,3 +1,14 @@
+git config --local "" Projeto Pasta
+git config --global "" Computador
+
+git log = informaçõe sobre os commites
+git looog --oneline = todas as informações resumidas
+git log -p = como as alterações do commit, usaremos
+
+git log --pretty="format:%H"
+
+para mais informação https://devhints.io/git-log
+
  Git seja inicializado = git init
 
 Um comando que mostra o estado do nosso repositório = git status
@@ -25,3 +36,37 @@ M = Modificado
 A = Arquivo adicionado
 
 .gitignore = contendo uma lista de padrões de nomes de arquivo que devem ser ignorados
+
+o git diff exibe exatamente as linhas que foram adicionadas e removidas — o patch, como costumava se chamar
+
+ver git diff --cached
+
+
+Mensagem do commit
+
+ase enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   README
+#	modified:   CONTRIBUTING.md
+#
+~
+~
+~
+".git/COMMIT_EDITMSG" 9L, 283C
+
+
+
+
+Repositórios remotos
+Para criar um diretório - mkdir (nome do arquivo)
+
+Servidor para armazenar as alteraçoes: git init --bare
+
+git remote = todos os repositórios remotos que o repositório local conhece são listados
+
+Para adicionar um repositório: git remote add nome-repositorio caminho/para/o/repositorio
+
